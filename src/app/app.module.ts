@@ -7,6 +7,8 @@ import { UserComponent } from './user/user.component';
 
 import { FormsModule } from '@angular/forms'
 
+import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,9 +17,10 @@ import { FormsModule } from '@angular/forms'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AmplifyAngularModule
   ],
-  providers: [],
+  providers: [AmplifyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
