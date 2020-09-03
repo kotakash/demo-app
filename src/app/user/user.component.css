@@ -1,0 +1,15 @@
+.cent {
+    width: auto;
+    margin: 50px 500px 0px 500px
+}
+label {
+    font-weight: 700;
+}
+.btncent {
+    margin: 10px 135px 0px;
+}
+.container {
+    border-style: ridge;
+    border-color: black;
+    padding: 25px;
+}
