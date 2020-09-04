@@ -10,6 +10,14 @@
       "StackName": "amplify-demoapp-dev-175438",
       "StackId": "arn:aws:cloudformation:ap-south-1:541736243816:stack/amplify-demoapp-dev-175438/751a5a60-ede0-11ea-883c-027843ee7a02",
       "AmplifyAppId": "d1kearswgm4gsx"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1kearswgm4gsx",
+          "type": "manual"
+        }
+      }
     }
   }
 }
